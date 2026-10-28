@@ -1,0 +1,73 @@
+{
+  "model": "Logistic Regression",
+  "cv_roc_auc": {
+    "Logistic Regression": 0.8443812292358803,
+    "Random Forest": 0.8315739202657808,
+    "Gradient Boosting": 0.8205052602436324
+  },
+  "test_roc_auc": 0.8125925925925926,
+  "test_recall": 0.7037037037037037,
+  "test_f1": 0.6495726495726496,
+  "test_accuracy": 0.7337662337662337,
+  "confusion": {
+    "tn": 75,
+    "fp": 25,
+    "fn": 16,
+    "tp": 38
+  },
+  "importance": {
+    "Pregnancies": 0.027228395061728437,
+    "Glucose": 0.15729629629629635,
+    "BloodPressure": 0.0009135802469136256,
+    "SkinThickness": 0.000358024691358072,
+    "Insulin": 0.0011913580246914097,
+    "BMI": 0.029222222222222285,
+    "DiabetesPedigreeFunction": 0.01066049382716054,
+    "Age": 0.006388888888888914
+  },
+  "n_train": 614,
+  "n_test": 154,
+  "sklearn_version": "1.9.1",
+  "ranges": {
+    "Pregnancies": {
+      "min": 0.0,
+      "max": 17.0,
+      "median": 3.0
+    },
+    "Glucose": {
+      "min": 44.0,
+      "max": 199.0,
+      "median": 117.0
+    },
+    "BloodPressure": {
+      "min": 24.0,
+      "max": 122.0,
+      "median": 72.0
+    },
+    "SkinThickness": {
+      "min": 7.0,
+      "max": 99.0,
+      "median": 29.0
+    },
+    "Insulin": {
+      "min": 14.0,
+      "max": 846.0,
+      "median": 125.0
+    },
+    "BMI": {
+      "min": 18.2,
+      "max": 67.1,
+      "median": 32.3
+    },
+    "DiabetesPedigreeFunction": {
+      "min": 0.078,
+      "max": 2.42,
+      "median": 0.3725
+    },
+    "Age": {
+      "min": 21.0,
+      "max": 81.0,
+      "median": 29.0
+    }
+  }
+}
